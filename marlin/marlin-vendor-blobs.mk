@@ -1,4 +1,4 @@
-# [2018-01-26] Auto-generated file, do not edit
+# [2018-01-27] Auto-generated file, do not edit
 
 PRODUCT_COPY_FILES += \
     vendor/google_devices/marlin/proprietary/bin/mct-unit-test-app:$(TARGET_COPY_OUT_SYSTEM)/bin/mct-unit-test-app:google \
