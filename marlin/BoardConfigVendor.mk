@@ -1,4 +1,4 @@
-# [2018-02-07] Auto-generated file, do not edit
+# [2018-03-06] Auto-generated file, do not edit
 
 AB_OTA_PARTITIONS += vendor
 ifneq ($(filter sailfish,$(TARGET_DEVICE)),)

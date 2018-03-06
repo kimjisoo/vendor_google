@@ -1,4 +1,4 @@
-# [2018-02-07] Auto-generated file, do not edit
+# [2018-03-06] Auto-generated file, do not edit
 
 $(call inherit-product, vendor/google_devices/marlin/marlin-vendor-blobs.mk)
 

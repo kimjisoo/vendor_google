@@ -1,9 +1,9 @@
-139f537b38861c3ff8e3dc93d4e7e915ecdacb9d  vendor/google_devices/marlin/AndroidBoardVendor.mk
-73341ca8c3a148f6223882f22e79a900fa27a600  vendor/google_devices/marlin/Android.mk
-1e232973b9b5339cc78bf6f004922ab944099d66  vendor/google_devices/marlin/BoardConfigVendor.mk
-eb56e42a673b8b8b34a09cdfe4aa1c462a20db4c  vendor/google_devices/marlin/BoardConfigVendorPartial.mk
-2d6dd17c9fab5b4484756f843cefd3c83527d8b1  vendor/google_devices/marlin/device-vendor-marlin.mk
-2eeb252bcf681da249b7821c3ba99545413b65dc  vendor/google_devices/marlin/marlin-vendor-blobs.mk
+2bfbe7fbd6f695f71d76096d57d0e958e16e17f5  vendor/google_devices/marlin/AndroidBoardVendor.mk
+2068a1f3eb095d292f149e80a1b6461102753bb2  vendor/google_devices/marlin/Android.mk
+d6af2a0e7a0d81bce98e007edbe8a08eba004ba5  vendor/google_devices/marlin/BoardConfigVendor.mk
+1eff10705524c6b7c0605b142b55c33659da14bb  vendor/google_devices/marlin/BoardConfigVendorPartial.mk
+0fbf3947f4037f7b630e2f2aeb8f766a925dc0ff  vendor/google_devices/marlin/device-vendor-marlin.mk
+274e247e1c675b9a0475751c89f0c967128cd703  vendor/google_devices/marlin/marlin-vendor-blobs.mk
 a0b6133237ea43e667464c27a9c2bb23690c084a  vendor/google_devices/marlin/proprietary/bin/mct-unit-test-app
 a7f0d5c7d038dfc5137f0295f82fdf7c56bb50cc  vendor/google_devices/marlin/proprietary/bin/pktlogconf
 060712c9ea08a79aecd844f0451386fbc5b7afaa  vendor/google_devices/marlin/proprietary/bin/qmi_simple_ril_test
