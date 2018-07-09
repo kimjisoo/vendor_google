@@ -1,9 +1,9 @@
-ba65b98a446070287b61aaa4c8824d34d225d244  vendor/google_devices/marlin/AndroidBoardVendor.mk
-55233ea80aba973501ce78ff8f5ba0c81d11932d  vendor/google_devices/marlin/Android.mk
-ed689f01b5fd033c5e2188a7dad20fb4e6108bf5  vendor/google_devices/marlin/BoardConfigVendor.mk
-21a946ba082257b121f76fe3dd4b548de1fc36b7  vendor/google_devices/marlin/BoardConfigVendorPartial.mk
-34ca333e782f22754d38c6fe17e5caf3924803ee  vendor/google_devices/marlin/device-vendor-marlin.mk
-67fc9cf6e9caaf7dcfd27f185fc373cfdc805025  vendor/google_devices/marlin/marlin-vendor-blobs.mk
+c7ed6e8e992d9829def6d67b6d427fede8f511a5  vendor/google_devices/marlin/AndroidBoardVendor.mk
+99d1dddb97e0171b01ff7b1582d37bc8b250b2bd  vendor/google_devices/marlin/Android.mk
+6b1976ca30a70a933ac00c80aa740a3f834907d6  vendor/google_devices/marlin/BoardConfigVendor.mk
+89006a46c526e2609f6ca2098d20abfacd3f2fb3  vendor/google_devices/marlin/BoardConfigVendorPartial.mk
+068fbadb06beba1a5d70ef4094d630a9b4811866  vendor/google_devices/marlin/device-vendor-marlin.mk
+ee69b76e35ebec7d8252b13fd226eb666f83609e  vendor/google_devices/marlin/marlin-vendor-blobs.mk
 a0b6133237ea43e667464c27a9c2bb23690c084a  vendor/google_devices/marlin/proprietary/bin/mct-unit-test-app
 a7f0d5c7d038dfc5137f0295f82fdf7c56bb50cc  vendor/google_devices/marlin/proprietary/bin/pktlogconf
 060712c9ea08a79aecd844f0451386fbc5b7afaa  vendor/google_devices/marlin/proprietary/bin/qmi_simple_ril_test
@@ -90,7 +90,7 @@ b002dba1f4e51a74bddae78580f6d15f5676d517  vendor/google_devices/marlin/vendor/bi
 96f61fbf0c339cbd25fb4d1019db5f0b5ea9aff9  vendor/google_devices/marlin/vendor/bin/hw/android.hardware.bluetooth@1.0-service
 24de3409fdc5b13883671fe607814e01b4c1797a  vendor/google_devices/marlin/vendor/bin/hw/android.hardware.boot@1.0-service
 6b2793cdf8d4ece374fdcc94cbed0addf570423d  vendor/google_devices/marlin/vendor/bin/hw/android.hardware.camera.provider@2.4-service
-a2b8c48079f32f88b35095883ca54d5855cea5bb  vendor/google_devices/marlin/vendor/bin/hw/android.hardware.cas@1.0-service
+f777f8f0007fdc6aaee13030bb51d035526b999c  vendor/google_devices/marlin/vendor/bin/hw/android.hardware.cas@1.0-service
 2a7fd65ebb02eafc1fbbfe0595c2bedb0e21c81f  vendor/google_devices/marlin/vendor/bin/hw/android.hardware.configstore@1.0-service
 fa3f8ff3508422a4ebd7e15b7e7e54841a604846  vendor/google_devices/marlin/vendor/bin/hw/android.hardware.contexthub@1.0-service
 2cb69c9b3cc59b26bd52fcd3e3a1cff742b37deb  vendor/google_devices/marlin/vendor/bin/hw/android.hardware.drm@1.0-service
@@ -161,7 +161,7 @@ f13c444bcfb70ac90f58d5176c1870fe32d5595d  vendor/google_devices/marlin/vendor/bi
 60762281388b2b0b0aa88dcaa50f10cdab9ae87d  vendor/google_devices/marlin/vendor/bin/thermal-engine
 7c67ecf5d0a25a0dc1afdb1d5e0c7958c1d4e670  vendor/google_devices/marlin/vendor/bin/time_daemon
 c8ed8fe82856e2b2b9808bd5b0bffbfb76c32127  vendor/google_devices/marlin/vendor/bin/toybox_vendor
-5fcfc4b5e6873232deae6e55ee76bc771607bb05  vendor/google_devices/marlin/vendor/bin/vndservice
+7e93bb88db0e9c04c09212344d8636625ab8e545  vendor/google_devices/marlin/vendor/bin/vndservice
 3359d3be6dbb6624d42d2ea3f35c2c3afc30b3ec  vendor/google_devices/marlin/vendor/bin/vndservicemanager
 f88ce6014e45c993cdee1dd66f8adc06bc024b95  vendor/google_devices/marlin/vendor/bin/wcnss_filter
 5649be91f1b1c2df7480b72a40ede45969e48ac2  vendor/google_devices/marlin/vendor/bin/wdsdaemon
@@ -493,7 +493,7 @@ c996b1efdb81a42c05e901f18c88d4c8236900e6  vendor/google_devices/marlin/vendor/li
 0aeb98f0a6e91e625d7df5cc9a28061742c3360f  vendor/google_devices/marlin/vendor/lib64/hw/gps.default.so
 2d87adf06eaa3f762ccfe0bbec4533c9d55f641a  vendor/google_devices/marlin/vendor/lib64/hw/gralloc.default.so
 44e09a0801dd0b859699f4485b42dbdb9b41b013  vendor/google_devices/marlin/vendor/lib64/hw/gralloc.msm8996.so
-a6759c4fabfa6da1768de00ac7fa38e52471045e  vendor/google_devices/marlin/vendor/lib64/hw/hwcomposer.msm8996.so
+f9dc791d334cfac6f759baaff4b7817d7781a72f  vendor/google_devices/marlin/vendor/lib64/hw/hwcomposer.msm8996.so
 517738f42191b7e3a2d284b2daadbca9d2ed282d  vendor/google_devices/marlin/vendor/lib64/hw/keystore.msm8996.so
 058e95306a4239472ad5d0bcf4f59c28bf5dccba  vendor/google_devices/marlin/vendor/lib64/hw/lights.marlin.so
 596547d02141ef655c6596df9cc2a87bacf9c059  vendor/google_devices/marlin/vendor/lib64/hw/lights.msm8996.so
@@ -596,7 +596,7 @@ becf66923bbad5b8bf5aad484557d016d1ca76fb  vendor/google_devices/marlin/vendor/li
 02889d910c17787c1eb7dba4ae3eec4ad5b5a024  vendor/google_devices/marlin/vendor/lib64/libqdi.so
 8952d96f61d9ee3aeb928dc7559581cca6861000  vendor/google_devices/marlin/vendor/lib64/libqdMetaData.so
 50e2a1871716cbac9b76b312037c2bbada88d855  vendor/google_devices/marlin/vendor/lib64/libqdp.so
-16a238d0a5b9742c485126c417721fca4f88aae2  vendor/google_devices/marlin/vendor/lib64/libqdutils.so
+cf528458517a4f3957a6724cb9d22da11aac3c03  vendor/google_devices/marlin/vendor/lib64/libqdutils.so
 754840107122a4d14b2aea51680af01eaf9e23cd  vendor/google_devices/marlin/vendor/lib64/libqisl.so
 8bf71882aeb211972cb08fcc15ea5d520fc19e9c  vendor/google_devices/marlin/vendor/lib64/libqmi_cci.so
 7d6adf98cfae4c0a6a9f46cea335aa1013bdf915  vendor/google_devices/marlin/vendor/lib64/libqmi_client_helper.so
@@ -609,7 +609,7 @@ aa53c87ef01edf1c4c01622240a1cda8fe35e274  vendor/google_devices/marlin/vendor/li
 536b3919252d671c1ba0b18e8302c43d8c00572a  vendor/google_devices/marlin/vendor/lib64/libqmiservices.so
 a13f624feb62012cdb8abbad41b882978970ffa6  vendor/google_devices/marlin/vendor/lib64/libqmi.so
 98e07e16445371f20a6552924ac1bd7b79de627a  vendor/google_devices/marlin/vendor/lib64/libQSEEComAPI.so
-1baa9e7a07f00932da2d443699971931d1fef51b  vendor/google_devices/marlin/vendor/lib64/libqservice.so
+858d0e925cd230013497ecf9ef57bc258d47350a  vendor/google_devices/marlin/vendor/lib64/libqservice.so
 b001cfdc7f748a53f3063cf521ac4310baaf893a  vendor/google_devices/marlin/vendor/lib64/libqti-perfd-client.so
 94a772ed6173ee9ec8e8a45921fa52f0227ebc9b  vendor/google_devices/marlin/vendor/lib64/libquipc_os_api.so
 d8f18a434c73c2c202fa78b0ff6c26734979cffc  vendor/google_devices/marlin/vendor/lib64/lib-rcsjni.so
@@ -643,8 +643,8 @@ e8d131d52ac71eabcf423ff957977079f8adc9b6  vendor/google_devices/marlin/vendor/li
 af07290295383323e657a8068aa27a984459dd17  vendor/google_devices/marlin/vendor/lib64/libsd_sdk_display.so
 8ba3a73ac9deae421ae11d6fed4ef35f9bbd79a7  vendor/google_devices/marlin/vendor/lib64/libsdsprpc.so
 0d408953ec7aecb180bd8e1dcd98d3dcc0579eaf  vendor/google_devices/marlin/vendor/lib64/lib-sec-disp.so
-d37aecfd1faccc2c9887116b938ff6482dbd826f  vendor/google_devices/marlin/vendor/lib64/libSecureExtAuthJNI.so
-af2850c18629bb007fea098633832015e1ee575e  vendor/google_devices/marlin/vendor/lib64/libSecureSampleAuthJNI.so
+36e041494a29f40aed0f1c0fb0d0e2ef6c6be78f  vendor/google_devices/marlin/vendor/lib64/libSecureExtAuthJNI.so
+5e2036428a7a0134595e9ea3c63a8468cbacfda0  vendor/google_devices/marlin/vendor/lib64/libSecureSampleAuthJNI.so
 7e28c730567393aa18b8b7db0d72631c089fe1e3  vendor/google_devices/marlin/vendor/lib64/libSecureUILib.so
 f425bf267ee91adf076a68c7264769cccad0aeef  vendor/google_devices/marlin/vendor/lib64/libsecureui.so
 2955d8f9496606960bbec8de25080c32db3ffb40  vendor/google_devices/marlin/vendor/lib64/libsecureuisvc_jni.so
@@ -728,14 +728,14 @@ b77fdaa4f149494ad1705212b10f58d71a16e781  vendor/google_devices/marlin/vendor/li
 ef0a7eb36614762bbcc15ecef35e266cfcd3c2e8  vendor/google_devices/marlin/vendor/lib/hw/audio.r_submix.default.so
 232e9b587e986d1b50e0b3b2fcb999d6569f038b  vendor/google_devices/marlin/vendor/lib/hw/audio.usb.default.so
 f18b149cea8221bfaba7c79a867d24a68f0d51e1  vendor/google_devices/marlin/vendor/lib/hw/bootctrl.msm8996.so
-54b6f8c40fa55bbf785add12d47e3bfd0c3a1d2b  vendor/google_devices/marlin/vendor/lib/hw/camera.msm8996.so
+7b09a862beb5f92ea358968029302880ec62dbdd  vendor/google_devices/marlin/vendor/lib/hw/camera.msm8996.so
 8af1c8d6ac668e5a4aec2e011e3a3e9dcb7994b2  vendor/google_devices/marlin/vendor/lib/hw/context_hub.default.so
 7850bfe7dbf98735ea77db9181e4e5fa1c8d7cb6  vendor/google_devices/marlin/vendor/lib/hw/flp.default.so
 e86e680edf0d005fbd51dd63b324a3d606a80ff1  vendor/google_devices/marlin/vendor/lib/hw/gatekeeper.msm8996.so
 2b637b9fd003a3de0a08acd742240d444068b511  vendor/google_devices/marlin/vendor/lib/hw/gps.default.so
 9eeccfc6f49dc933f616aedb116e8b89bb624d1f  vendor/google_devices/marlin/vendor/lib/hw/gralloc.default.so
 7df15b0912e98ce8a61cb8bb6ae2f6a8301be89d  vendor/google_devices/marlin/vendor/lib/hw/gralloc.msm8996.so
-1e8997ed333aaa30a3e3a06b4a10de5225c6715f  vendor/google_devices/marlin/vendor/lib/hw/hwcomposer.msm8996.so
+362c17bf58c7952f83f142ed9f64a12db659aa60  vendor/google_devices/marlin/vendor/lib/hw/hwcomposer.msm8996.so
 0c30b80f77b46946744ec54a774edec03d60b49e  vendor/google_devices/marlin/vendor/lib/hw/keystore.msm8996.so
 76ca2b29da0eb0235006bf2a3d878014f4189571  vendor/google_devices/marlin/vendor/lib/hw/lights.marlin.so
 e2695c2ebc927c6836064bacc4052619db26866e  vendor/google_devices/marlin/vendor/lib/hw/lights.msm8996.so
@@ -851,7 +851,7 @@ f8e2eaec197328de59e5e5d4ed4911c60a9ad48f  vendor/google_devices/marlin/vendor/li
 5ffcfa7336d07962150e4ddf1d0f8ed00e29e540  vendor/google_devices/marlin/vendor/lib/liblowi_client.so
 0b20de6b28f203c5c09515d1c14f84c2cc28e300  vendor/google_devices/marlin/vendor/lib/libmdmdetect.so
 38ac4529f51ddbc4751840e1f248617a6b5aea6b  vendor/google_devices/marlin/vendor/lib/libmdsprpc.so
-05dc86a3c5bb445dddb26f0e19a7bf840c946dd9  vendor/google_devices/marlin/vendor/lib/libmediacodecservice.so
+5cbc2b53620f8f9b8e6f1bf4e3215c4f7f2342ed  vendor/google_devices/marlin/vendor/lib/libmediacodecservice.so
 aa949653a4a716631881e41590990895d2ed81b9  vendor/google_devices/marlin/vendor/lib/libminijail_vendor.so
 5202193c5b78a491f987c0ebba079733bf6d425e  vendor/google_devices/marlin/vendor/lib/libmmcamera2_c2d_module.so
 b46e7324d7523a9cbab53ce590f2f79b3e5cfde0  vendor/google_devices/marlin/vendor/lib/libmmcamera2_cpp_module.so
@@ -953,7 +953,7 @@ ca7a90029013d2e26b7bcfabd7b85acdd23b0e3b  vendor/google_devices/marlin/vendor/li
 8b8a688f573110f9f124a5447452d9c02769832c  vendor/google_devices/marlin/vendor/lib/libqcmaputils.so
 343024437fc8a0c2fc57565e04be4b4cfba37116  vendor/google_devices/marlin/vendor/lib/libqdi.so
 5a62de8f067e57b02e4bc1211d228f650e8df76a  vendor/google_devices/marlin/vendor/lib/libqdMetaData.so
-3af8f522de7075ca6b79b96eb97747485e8969a6  vendor/google_devices/marlin/vendor/lib/libqdutils.so
+93fb42691b4cc87a54cf8a06c659e4108a620fe5  vendor/google_devices/marlin/vendor/lib/libqdutils.so
 1f0c0490669670b729b427c76d5a0cb2328a310f  vendor/google_devices/marlin/vendor/lib/libqisl.so
 6851b816a980fed04f2098f88404e9525e831cac  vendor/google_devices/marlin/vendor/lib/libqmi_cci.so
 70860edd401a2d661fdcfa9934f6df55b618eb87  vendor/google_devices/marlin/vendor/lib/libqmi_client_helper.so
@@ -969,7 +969,7 @@ b76752aeb5557a6ab52648e25af14e488b2f1280  vendor/google_devices/marlin/vendor/li
 b4def93485295d27aab4b9f0626c2845b8338d62  vendor/google_devices/marlin/vendor/lib/libqomx_jpegenc_pipe.so
 c1b67a5c97b9462610f4a911558f3b5374e6faf0  vendor/google_devices/marlin/vendor/lib/libqomx_jpegenc.so
 91f6c77acff063967df41ed9891c8e528407231f  vendor/google_devices/marlin/vendor/lib/libQSEEComAPI.so
-7dca3485fe24e1be10085833c8e4569a11cb992f  vendor/google_devices/marlin/vendor/lib/libqservice.so
+568374407a434e121c4b25c86f2a24d21e166ba7  vendor/google_devices/marlin/vendor/lib/libqservice.so
 545267369af43680d6c4bbb236e6f6afe1d75acc  vendor/google_devices/marlin/vendor/lib/libqti-perfd-client.so
 dda7b70bd0484071a438a8585a42089bf3ccb3bf  vendor/google_devices/marlin/vendor/lib/libquipc_os_api.so
 a7fbecdaee7f9ea382d4934282660579d0ddb1a3  vendor/google_devices/marlin/vendor/lib/lib-rcsjni.so
@@ -996,8 +996,8 @@ ba776b4c595bd084df58617a7163174f4ac8e673  vendor/google_devices/marlin/vendor/li
 1e3d287f5c7908ac1a1b75caad7194c2a91fa751  vendor/google_devices/marlin/vendor/lib/libsd_sdk_display.so
 56f23804ebbddb850a935263b34872681ffcfac3  vendor/google_devices/marlin/vendor/lib/libsdsprpc.so
 d840ba6307cd5f3b64de33419e6912ee4718daab  vendor/google_devices/marlin/vendor/lib/lib-sec-disp.so
-257bac44a1551dd6679169c25ec324cd28a32d9f  vendor/google_devices/marlin/vendor/lib/libSecureExtAuthJNI.so
-ee19f24d24bffe98ddd5ee966212336af73050dd  vendor/google_devices/marlin/vendor/lib/libSecureSampleAuthJNI.so
+af1824a3c2c805da5581c0083442b07517661100  vendor/google_devices/marlin/vendor/lib/libSecureExtAuthJNI.so
+23f33f1939b2806bb9e78faa762be2c37ac541d1  vendor/google_devices/marlin/vendor/lib/libSecureSampleAuthJNI.so
 3fd45dca784d071925230541353e553a9ca25641  vendor/google_devices/marlin/vendor/lib/libSecureUILib.so
 09f32a0b98e3949ecebea0cb919203c225b80f4e  vendor/google_devices/marlin/vendor/lib/libsecureui.so
 72b1f278f23d79e7961bec4d09dc0a1e2565c496  vendor/google_devices/marlin/vendor/lib/libsecureuisvc_jni.so

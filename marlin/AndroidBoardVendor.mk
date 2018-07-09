@@ -1,4 +1,4 @@
-# [2018-06-05] Auto-generated file, do not edit
+# [2018-07-09] Auto-generated file, do not edit
 
 LOCAL_PATH := $(call my-dir)
 
